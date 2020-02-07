@@ -1,0 +1,57 @@
+.main_container {
+  height: 400px;
+  width: 300px;
+  background-color: rgb(68, 125, 190);
+  padding: 50px;
+  margin: 50px 100px 50px 150px;
+}
+
+.title {
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  font-weight: 100;
+  color: white;
+}
+h1 {
+  margin-top: 5px;
+}
+/*.equall {
+  background-color: #eba3a3;
+}*/
+input {
+  width: 150px;
+  height: 20px;
+}
+.form_input {
+  width: 80%;
+  height: auto;
+  font-size: 20px;
+  color: whitesmoke;
+  margin-left: 30px;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  background-color: #ada7a7;
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+}
+.textview {
+  width: 220px;
+  height: 60px;
+  margin: 2px;
+  border-width: 10px;
+  color: white;
+  background-color: rgb(66, 63, 63);
+  font-weight: 700;
+  font-size: 25px;
+  padding: 5px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
