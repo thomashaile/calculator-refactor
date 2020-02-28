@@ -1,12 +1,20 @@
-function calculateHandler(event) {
-  // read & process user input from event
 
-  // pass user input through core logic
+//this is the handler code all the calculations done here
 
-  // render output to DOM for user
-
-  // log user action for developers
-
-  // return true for the browser
-  return true;
+function insert(num) {
+  document.form.textview.value = document.form.textview.value + num;
 }
+function equal() {
+  var exp = document.form.textview.value;
+  if (exp) {
+    document.form.textview.value = eval(exp);
+  }
+}
+function clean() {
+  document.form.textview.value = "";
+}
+function back() {
+  var exp = document.form.textview.value;
+  document.form.textview.value = exp.substring(0, exp.length - 1);
+}
+
