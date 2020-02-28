@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <!-- this script is to help evaluate your deployed project -->
     <script src="./dependencies/evaluation.js"></script>
     <!-- this is the testing function for your logic -->
     <script src="./dependencies/testing.js"></script>
     <link rel="stylesheet" href="css/style.css" />
-  <title>Calculator</title>
-</head>
+  </head>
 
   <body>
     <main class="main_container">
@@ -23,8 +21,7 @@
                 class="button_danger"
                 type="button"
                 id="C"
-                value="C"
-                onclick="clean()"
+                value="AC"
               >
                 C
               </button>
@@ -35,7 +32,6 @@
                 type="button"
                 id="<"
                 value="<"
-                onclick="back()"
               >
                 <
               </button>
@@ -46,7 +42,6 @@
                 type="button"
                 id="/"
                 value="/"
-                onclick="insert('/')"
               >
                 /
               </button>
@@ -57,7 +52,6 @@
                 type="button"
                 id="X"
                 value="X"
-                onclick="insert('*')"
               >
                 X
               </button>
@@ -70,7 +64,6 @@
                 type="button"
                 id="7"
                 value="7"
-                onclick="insert(7)"
               >
                 7
               </button>
@@ -81,7 +74,6 @@
                 type="button"
                 id="8"
                 value="8"
-                onclick="insert(8)"
               >
                 8
               </button>
@@ -103,7 +95,6 @@
                 type="button"
                 id="-"
                 value="-"
-                onclick="insert('-')"
               >
                 -
               </button>
@@ -116,7 +107,6 @@
                 type="button"
                 id="4"
                 value="4"
-                onclick="insert(4)"
               >
                 4
               </button>
@@ -127,7 +117,6 @@
                 type="button"
                 id="5"
                 value="5"
-                onclick="insert(5)"
               >
                 5
               </button>
@@ -138,7 +127,6 @@
                 type="button"
                 id="6"
                 value="6"
-                onclick="insert(6)"
               >
                 6
               </button>
@@ -149,7 +137,6 @@
                 type="button"
                 id="+"
                 value="+"
-                onclick="insert('+')"
               >
                 +
               </button>
@@ -162,7 +149,6 @@
                 type="button"
                 id="1"
                 value="1"
-                onclick="insert(1)"
               >
                 1
               </button>
@@ -173,7 +159,6 @@
                 type="button"
                 id="2"
                 value="2"
-                onclick="insert(2)"
               >
                 2
               </button>
@@ -184,7 +169,6 @@
                 type="button"
                 id="3"
                 value="3"
-                onclick="insert(3)"
               >
                 3
               </button>
@@ -196,7 +180,6 @@
                 type="button"
                 id="="
                 value="="
-                onclick="equal()"
               >
                 =
               </button>
@@ -210,7 +193,6 @@
                 type="button"
                 id="0"
                 value="0"
-                onclick="insert(0)"
               >
                 0
               </button>
@@ -221,7 +203,6 @@
                 type="button"
                 id="."
                 value="."
-                onclick="insert('.')"
               >
                 .
               </button>
@@ -237,5 +218,4 @@
   <script src="./scripts/logic.js"></script>
   <script src="./scripts/handler.js"></script>
   <script src="./scripts/listener.js"></script>
-  <script src="main.js"></script>
 </html>
